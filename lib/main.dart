@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset(
-                'assets/images/flutter.png',
+                'assets/images/helloworld.webp',
                 height: 200,
                 width: 200,
             ),
