@@ -127,28 +127,32 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.blue,
               ),
             ),
-            const Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                  Icon(
-                      Icons.favorite,
-                      color: Colors.pink,
-                      size: 24.0,
-                      semanticLabel: 'Text to announce in accessibility modes'
-                  ),
-                  Icon(
-                      Icons.audiotrack,
-                      color: Colors.green,
-                      size: 30.0,
-                  ),
-                  Icon(
-                      Icons.beach_access,
-                      color: Colors.blue,
-                      size: 36.0,
-                  ),
-              ],
+            Container(
+              margin: const EdgeInsets.symmetric(vertical: 16.0),
+              padding: const EdgeInsets.all(8.0),
+              color: Colors.amberAccent,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                    Icon(
+                        Icons.favorite,
+                        color: Colors.pink,
+                        size: 24.0,
+                        semanticLabel: 'Text to announce in accessibility modes'
+                    ),
+                    Icon(
+                        Icons.audiotrack,
+                        color: Colors.green,
+                        size: 30.0,
+                    ),
+                    Icon(
+                        Icons.beach_access,
+                        color: Colors.blue,
+                        size: 36.0,
+                    ),
+                ],
+              ),
             ),
-            const SizedBox(height: 20),
           ],
         ),
       ),
