@@ -109,10 +109,23 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 200,
                 width: 200,
             ),
-            const Text('You have pushed the button this many times:'),
+            const Text(
+                'You have pushed the button this many times:',
+                style: TextStyle(
+                    fontSize: 16.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.lightGreen,
+                    letterSpacing: 1.5,
+                    wordSpacing: 1.5,
+                ),
+            ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: TextStyle(
+                fontSize: 26.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
             ),
           ],
         ),
