@@ -128,7 +128,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Container(
-              margin: const EdgeInsets.symmetric(vertical: 16.0),
               padding: const EdgeInsets.all(8.0),
               color: Colors.amberAccent,
               child: Row(
