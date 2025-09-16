@@ -16,6 +16,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         body: Stack(
+          alignment: Alignment.center,
           children: <Widget>[
             Container(
               margin: EdgeInsets.only(left: 20),
